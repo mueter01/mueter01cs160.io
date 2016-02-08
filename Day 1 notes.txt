@@ -1,0 +1,27 @@
+BUILDING A CLASS (DICE CLASS)
+
+What are the attributes?
+  - number of sides                   \
+  - values on each side                 > Examples of Instance Variables
+  - current value (what side is up)   /
+  
+What does it do?
+  - roll
+  - get current value
+  
+____________________________________________________________________________________
+  
+import random
+
+class MSDie:
+  def __init__(self, num_sides):
+    self.num_sides = num_sides
+    self.roll
+  def roll(self):
+    self.current_value = random.randrange(1, num_sides + 1)
+    return self.current_value
+  def get_value(self):
+    return self.current_value
+    
+d = MSDie(60
+for i in range(10):
